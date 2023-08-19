@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283B52102A912D040065341B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B520F2A912D040065341B /* AppDelegate.swift */; };
+		283B52122A912D040065341B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B52112A912D040065341B /* SceneDelegate.swift */; };
+		283B52142A912D040065341B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B52132A912D040065341B /* MainTabBarViewController.swift */; };
+		283B52192A912D050065341B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283B52182A912D050065341B /* Assets.xcassets */; };
+		283B521C2A912D050065341B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283B521A2A912D050065341B /* LaunchScreen.storyboard */; };
+		283B522C2A912FB20065341B /* KesfetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B522B2A912FB20065341B /* KesfetViewController.swift */; };
+		283B522E2A912FBE0065341B /* ListemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B522D2A912FBE0065341B /* ListemViewController.swift */; };
+		283B52302A912FC70065341B /* AramaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B522F2A912FC70065341B /* AramaViewController.swift */; };
+		283B52322A912FD10065341B /* CanliYayinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B52312A912FD10065341B /* CanliYayinViewController.swift */; };
+		283B52342A912FDD0065341B /* HesabimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B52332A912FDD0065341B /* HesabimViewController.swift */; };
+		283B52362A9130D30065341B /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B52352A9130D30065341B /* CollectionViewTableViewCell.swift */; };
+		283B52382A9131680065341B /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B52372A9131680065341B /* HeroHeaderUIView.swift */; };
+		283B523A2A9138F40065341B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B52392A9138F40065341B /* APICaller.swift */; };
+		283B523C2A9139390065341B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B523B2A9139390065341B /* Title.swift */; };
+		283B523E2A91398D0065341B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B523D2A91398D0065341B /* Extension.swift */; };
+		283B52402A9139F70065341B /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B523F2A9139F70065341B /* TitleCollectionViewCell.swift */; };
+		283B52432A913A750065341B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 283B52422A913A750065341B /* SDWebImage */; };
+		283B52452A913A750065341B /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 283B52442A913A750065341B /* SDWebImageMapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		283B520C2A912D040065341B /* Blu Tv Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blu Tv Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		283B520F2A912D040065341B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		283B52112A912D040065341B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		283B52132A912D040065341B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		283B52182A912D050065341B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		283B521B2A912D050065341B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		283B521D2A912D060065341B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283B522B2A912FB20065341B /* KesfetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesfetViewController.swift; sourceTree = "<group>"; };
+		283B522D2A912FBE0065341B /* ListemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListemViewController.swift; sourceTree = "<group>"; };
+		283B522F2A912FC70065341B /* AramaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AramaViewController.swift; sourceTree = "<group>"; };
+		283B52312A912FD10065341B /* CanliYayinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanliYayinViewController.swift; sourceTree = "<group>"; };
+		283B52332A912FDD0065341B /* HesabimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesabimViewController.swift; sourceTree = "<group>"; };
+		283B52352A9130D30065341B /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		283B52372A9131680065341B /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		283B52392A9138F40065341B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		283B523B2A9139390065341B /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		283B523D2A91398D0065341B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		283B523F2A9139F70065341B /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		283B52092A912D040065341B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283B52452A913A750065341B /* SDWebImageMapKit in Frameworks */,
+				283B52432A913A750065341B /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283B52032A912D040065341B = {
+			isa = PBXGroup;
+			children = (
+				283B520E2A912D040065341B /* Blu Tv Clone */,
+				283B520D2A912D040065341B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		283B520D2A912D040065341B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				283B520C2A912D040065341B /* Blu Tv Clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		283B520E2A912D040065341B /* Blu Tv Clone */ = {
+			isa = PBXGroup;
+			children = (
+				283B52282A912E030065341B /* Managers */,
+				283B52272A912DF90065341B /* Resources */,
+				283B52262A912DEE0065341B /* ViewsModel */,
+				283B52252A912DE00065341B /* Views */,
+				283B52242A912DD70065341B /* Models */,
+				283B52232A912DC90065341B /* Controllers */,
+				283B520F2A912D040065341B /* AppDelegate.swift */,
+				283B52112A912D040065341B /* SceneDelegate.swift */,
+				283B52132A912D040065341B /* MainTabBarViewController.swift */,
+				283B52182A912D050065341B /* Assets.xcassets */,
+				283B521A2A912D050065341B /* LaunchScreen.storyboard */,
+				283B521D2A912D060065341B /* Info.plist */,
+			);
+			path = "Blu Tv Clone";
+			sourceTree = "<group>";
+		};
+		283B52232A912DC90065341B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				283B522B2A912FB20065341B /* KesfetViewController.swift */,
+				283B522D2A912FBE0065341B /* ListemViewController.swift */,
+				283B522F2A912FC70065341B /* AramaViewController.swift */,
+				283B52312A912FD10065341B /* CanliYayinViewController.swift */,
+				283B52332A912FDD0065341B /* HesabimViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		283B52242A912DD70065341B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				283B523B2A9139390065341B /* Title.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		283B52252A912DE00065341B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				283B52352A9130D30065341B /* CollectionViewTableViewCell.swift */,
+				283B52372A9131680065341B /* HeroHeaderUIView.swift */,
+				283B523F2A9139F70065341B /* TitleCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		283B52262A912DEE0065341B /* ViewsModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewsModel;
+			sourceTree = "<group>";
+		};
+		283B52272A912DF90065341B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				283B523D2A91398D0065341B /* Extension.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		283B52282A912E030065341B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				283B52392A9138F40065341B /* APICaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		283B520B2A912D040065341B /* Blu Tv Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283B52202A912D060065341B /* Build configuration list for PBXNativeTarget "Blu Tv Clone" */;
+			buildPhases = (
+				283B52082A912D040065341B /* Sources */,
+				283B52092A912D040065341B /* Frameworks */,
+				283B520A2A912D040065341B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blu Tv Clone";
+			packageProductDependencies = (
+				283B52422A913A750065341B /* SDWebImage */,
+				283B52442A913A750065341B /* SDWebImageMapKit */,
+			);
+			productName = "Blu Tv Clone";
+			productReference = 283B520C2A912D040065341B /* Blu Tv Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		283B52042A912D040065341B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					283B520B2A912D040065341B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 283B52072A912D040065341B /* Build configuration list for PBXProject "Blu Tv Clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 283B52032A912D040065341B;
+			packageReferences = (
+				283B52412A913A750065341B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = 283B520D2A912D040065341B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				283B520B2A912D040065341B /* Blu Tv Clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		283B520A2A912D040065341B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283B521C2A912D050065341B /* LaunchScreen.storyboard in Resources */,
+				283B52192A912D050065341B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		283B52082A912D040065341B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283B52142A912D040065341B /* MainTabBarViewController.swift in Sources */,
+				283B52382A9131680065341B /* HeroHeaderUIView.swift in Sources */,
+				283B52322A912FD10065341B /* CanliYayinViewController.swift in Sources */,
+				283B52102A912D040065341B /* AppDelegate.swift in Sources */,
+				283B523C2A9139390065341B /* Title.swift in Sources */,
+				283B522C2A912FB20065341B /* KesfetViewController.swift in Sources */,
+				283B522E2A912FBE0065341B /* ListemViewController.swift in Sources */,
+				283B52402A9139F70065341B /* TitleCollectionViewCell.swift in Sources */,
+				283B52362A9130D30065341B /* CollectionViewTableViewCell.swift in Sources */,
+				283B52122A912D040065341B /* SceneDelegate.swift in Sources */,
+				283B523E2A91398D0065341B /* Extension.swift in Sources */,
+				283B523A2A9138F40065341B /* APICaller.swift in Sources */,
+				283B52342A912FDD0065341B /* HesabimViewController.swift in Sources */,
+				283B52302A912FC70065341B /* AramaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		283B521A2A912D050065341B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				283B521B2A912D050065341B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		283B521E2A912D060065341B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		283B521F2A912D060065341B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		283B52212A912D060065341B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blu Tv Clone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.info.Blu-Tv-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		283B52222A912D060065341B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blu Tv Clone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.info.Blu-Tv-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283B52072A912D040065341B /* Build configuration list for PBXProject "Blu Tv Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283B521E2A912D060065341B /* Debug */,
+				283B521F2A912D060065341B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		283B52202A912D060065341B /* Build configuration list for PBXNativeTarget "Blu Tv Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283B52212A912D060065341B /* Debug */,
+				283B52222A912D060065341B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		283B52412A913A750065341B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		283B52422A913A750065341B /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 283B52412A913A750065341B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		283B52442A913A750065341B /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 283B52412A913A750065341B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 283B52042A912D040065341B /* Project object */;
+}
